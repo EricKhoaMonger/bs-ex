@@ -55,25 +55,37 @@ h1, h2, h3, p {
     font-style: italic;
     color: teal;
     font-size: 18px;
+    padding: 0 30px;
 }
 .item-img, .show-btn {
     width: 150px;
     height: 150px;
     border-radius: 50%;    
-    box-shadow: 5px 10px 15px rgba(0,0,0,0.3)
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+    transition: 200ms transform ease;
 }
 .item-img-1 {
-    background: url('./img/85933238-tazón-de-vegano-de-desayuno-para-una-alimentación-saludable-aislado-sobre-fondo-blanco-vista-desde-arriba.jpg') no-repeat center center / 125% 125%;
+    background: url('./img/85933238-tazón-de-vegano-de-desayuno-para-una-alimentación-saludable-aislado-sobre-fondo-blanco-vista-desde-arriba.jpg') no-repeat center center / 120% 120%;
 }
 .item-img-2 {
-    background: url('./img/95571227-a-fried-egg-on-dish-with-white-background-vector-graphic.jpg') no-repeat center center / 125% 125%;
+    background: url('./img/95571227-a-fried-egg-on-dish-with-white-background-vector-graphic.jpg') no-repeat center center / 120% 120%;
+}
+.item-img-1:hover, .item-img-2:hover {
+    box-shadow: 5px 10px 25px rgba(0,0,0,0.2);
+    transform: scale(1.1,1.1);
 }
 .show-btn {
     background: teal;
     border: 5px solid #fff;
     margin: 0 auto;
+    cursor: pointer;
 }
-.show-btn p {
+.show-btn:hover {
+    background: rgb(2, 179, 179);
+    box-shadow: 5px 10px 25px rgba(0,0,0,0.2);
+    transform: scale(1.1,1.1);
+}
+.show-btn p {   
     font-weight: bold;
     color: #fff;
     font-size: 20px;
