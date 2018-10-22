@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, p {
+    margin-bottom: 0;
+}
+
+.left{
+    height: 100vh;
+    background: url('./img/edgar-castrejon-459824-unsplash.jpg') no-repeat left center / cover;
+}
+
+.branding h1 {
+    font-size: 45px;
+    letter-spacing: 17px;
+}
+.branding p {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: teal !important;
+}
+
+.navigation {
+    margin-left: 20px;
+}
+.navigation .nav-item {
+    margin-left: 40px;
+}
+
+.book-btn{
+    color: teal !important;
+}
+
+.hero-text p{
+    color: teal;
+    font-size: 55px;
+}
+.hero-text .number{
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid teal;
+}
+
+.item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.item-img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.item-detail {
+    font-style: italic;
+    color: teal;
+    font-size: 18px;
+}
+.item-img, .show-btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;    
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.3)
+}
+.item-img-1 {
+    background: url('./img/85933238-tazón-de-vegano-de-desayuno-para-una-alimentación-saludable-aislado-sobre-fondo-blanco-vista-desde-arriba.jpg') no-repeat center center / 125% 125%;
+}
+.item-img-2 {
+    background: url('./img/95571227-a-fried-egg-on-dish-with-white-background-vector-graphic.jpg') no-repeat center center / 125% 125%;
+}
+.show-btn {
+    background: teal;
+    border: 5px solid #fff;
+    margin: 0 auto;
+}
+.show-btn p {
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
